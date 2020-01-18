@@ -28,6 +28,8 @@ client.connect(function(err) {
 });
 
 
+
+
 function scrap(collection) {
     for (url1 of url1s) {
       axios(url1)
@@ -50,3 +52,4 @@ function scrap(collection) {
 
 }
 }
+
